@@ -17,11 +17,11 @@ A compact Node + Socket.io demo that simulates autonomous drones for delivering 
    ```
 3. Open `http://localhost:3000` in your browser.
 
-## Notes for hackathon submission
+
 - This is a prototype: autonomy logic is simulated server-side. For production you'd replace simulation with real telemetry, authentication, secure APIs, and adherence to aviation regulations.
 - The UI is designed to be user-accessible with large controls and clear text. It's intentionally minimal for quick demos.
 
-Good luck at the hackathon — tweak branding, map center, and add integrations (SMS, real telemetry, ML-based routing) to level up!
+
 
 
 ## Demo seeding script
