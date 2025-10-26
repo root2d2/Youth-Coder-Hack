@@ -1,0 +1,17 @@
+{
+  "name": "drone-hackathon",
+  "version": "1.0.0",
+  "description": "Hackathon demo: autonomous drones for deliveries, mapping, and comms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node demo_seed.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.0",
+    "axios": "^1.4.0"
+  }
+}

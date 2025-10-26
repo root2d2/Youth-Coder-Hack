@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Drone Aid — Disaster Response Demo</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Drone Aid</h1>
+    <p>Autonomous drone network for rapid relief and mapping</p>
+  </header>
+
+  <main class="grid">
+    <aside class="sidebar">
+      <div class="card">
+        <h2>Request Supplies</h2>
+        <form id="requestForm">
+          <input id="name" placeholder="Name" />
+          <input id="phone" placeholder="Phone" />
+          <input id="lat" placeholder="Latitude" />
+          <input id="lng" placeholder="Longitude" />
+          <input id="supplies" placeholder="Supplies (comma separated)" />
+          <button type="submit">Request Delivery</button>
+        </form>
+      </div>
+
+      <div class="card">
+        <h2>Drone Fleet</h2>
+        <ul id="fleetList"></ul>
+      </div>
+
+      <div class="card">
+        <h2>Requests</h2>
+        <ul id="requestsList"></ul>
+      </div>
+    </aside>
+
+    <section class="map-section">
+      <div id="map"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Built for hackathon — Node + Socket.io + Leaflet | <span class="accent">Drone Aid</span></p>
+  </footer>
+
+  <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
