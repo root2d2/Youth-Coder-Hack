@@ -1,4 +1,4 @@
-# Drone Aid — Hackathon Demo
+# Drone Aid (Hackathon Demo)
 
 A compact Node + Socket.io demo that simulates autonomous drones for delivering essential supplies, mapping affected areas, and connecting communities with first responders.
 
